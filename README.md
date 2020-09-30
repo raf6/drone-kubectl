@@ -11,7 +11,7 @@ name: deploy
 
 steps:
   - name: deploy
-    image: sinlead/drone-kubectl
+    image: drone/drone-kubectl
     settings:
       kubernetes_server:
         from_secret: k8s_server
